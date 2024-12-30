@@ -20,8 +20,12 @@ history = 10000
 multiplier = 3
 
 [selection]
-# Highlight the text using mouse to copy
+# Highlight the text using the mouse to copy
 save_to_clipboard = true
+
+[mouse]
+# Hide mouse while typing
+hide_when_typing = true
 
 [cursor.style]
 shape = "Beam"
