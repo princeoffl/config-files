@@ -1,0 +1,51 @@
+general.import = [
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[window]
+decorations = "Full"
+padding = { x = 15, y = 15 }
+dynamic_padding = true
+opacity = 1.0
+title = "Alacritty"
+
+[env]
+TERM = "xterm-256color"
+
+[terminal]
+shell = "/usr/bin/fish"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+# Highlight the text using mouse to copy
+save_to_clipboard = true
+
+[cursor.style]
+shape = "Beam"
+blinking = "Always"
+
+[font]
+size = 14.0
+
+[font.bold]
+# family = "MesloLGS Nerd Font Mono"
+family = "CaskaydiaCove Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "CaskaydiaCove Nerd Font"
+# family = "MesloLGS Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "CaskaydiaCove Nerd Font"
+# family = "MesloLGS Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+# family = "MesloLGS Nerd Font Mono"
+family = "CaskaydiaCove Nerd Font"
+style = "Regular"
